@@ -82,8 +82,10 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 ~~~
 
+Documentation : [Netlify & Hugo configuration courante](https://docs.netlify.com/configure-builds/common-configurations/#hugo)
+
 1. Se connecter à Netlify
-2. Créer unn nouveau site (depuis Netlify)
+2. Créer un nouveau site (depuis Netlify)
 3. Selectionner le dépôt Github correspondant au projet, puis valider.
 
 Netlify construit (build) le site statique et genère une URL.
