@@ -88,6 +88,10 @@ Documentation : [Netlify & Hugo configuration courante](https://docs.netlify.com
 2. Créer un nouveau site (depuis Netlify)
 3. Selectionner le dépôt Github correspondant au projet, puis valider.
 
+Paramètre à préciser sur le projet Netlify (deplay settings) : 
+ - Build command : `hugo --minify`
+ - Publish Directory : `public`
+
 Netlify construit (build) le site statique et genère une URL.
 
 Exemple de projet : 
