@@ -6,4 +6,7 @@ Générateur de site statique Hugo : https://gohugo.io
 Pour une installation simple, utiliser le binaire.
 https://gohugo.io/getting-started/installing/#binary-cross-platform
 
+## Installer un thème
+https://themes.gohugo.io/
+
 
