@@ -34,30 +34,6 @@ title = "My New Hugo Site"
 theme = "ananke"
 ~~~
 
-## Deploiement sur Netlify
-
-En préalable, spécifier un fichier de configuration pour Netlify sur votre projet. Ajouter le fichier `netlify.toml`Avec le contenu suivant : 
-
-~~~
-[context.production.environment]
-HUGO_VERSION = "0.75.1"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
-~~~
-
-1. Se connecter à Netlify
-2. Créer unn nouveau site (depuis Netlify)
-3. Selectionner le dépôt Github correspondant au projet, puis valider.
-
-Netlify construit (build) le site statique et genère une URL.
-
-Exemple de projet : 
-Depôt Github : https://github.com/ziopod/hugo-ananke-forestry-netlify
-Site sur hébergé sur Netlify : https://festive-dijkstra-b6cf85.netlify.app/
-
-
-
-
 ## Via Forestry
 
 Forestry permet de générer un dépôt Github avec le un installation de Hugo + unn thème le tout déjà configuré.
@@ -87,3 +63,26 @@ hugo server
 ~~~
 
 Après chaque modification de contenu dans Forestry, synchroniser le contenu local avec Githu Desktop ou en ligne de commande avec `git pull`.
+
+
+
+## Deploiement sur Netlify
+
+En préalable, spécifier un fichier de configuration pour Netlify sur votre projet. Ajouter le fichier `netlify.toml`Avec le contenu suivant : 
+
+~~~
+[context.production.environment]
+HUGO_VERSION = "0.75.1"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+~~~
+
+1. Se connecter à Netlify
+2. Créer unn nouveau site (depuis Netlify)
+3. Selectionner le dépôt Github correspondant au projet, puis valider.
+
+Netlify construit (build) le site statique et genère une URL.
+
+Exemple de projet : 
+Depôt Github : https://github.com/ziopod/hugo-ananke-forestry-netlify
+Site sur hébergé sur Netlify : https://festive-dijkstra-b6cf85.netlify.app/
