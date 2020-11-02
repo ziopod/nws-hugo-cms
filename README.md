@@ -20,7 +20,7 @@ cd Hello
 
 Tester le site :
 ~~~
-hugo serve
+hugo server
 ~~~
 
 ## Installer un thème
