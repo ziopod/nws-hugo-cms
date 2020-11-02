@@ -6,6 +6,23 @@ Générateur de site statique Hugo : https://gohugo.io
 Pour une installation simple, utiliser le binaire.
 https://gohugo.io/getting-started/installing/#binary-cross-platform
 
+## Génération d'un site
+
+Générer avec la commande :
+~~~
+hugo new site Hello
+~~~
+
+Se rendre dans le répertoire du site :
+~~~
+cd Hello
+~~~
+
+Tester le site :
+~~~
+hugo serve
+~~~
+
 ## Installer un thème
 https://themes.gohugo.io/
 
