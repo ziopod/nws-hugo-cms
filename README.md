@@ -9,4 +9,10 @@ https://gohugo.io/getting-started/installing/#binary-cross-platform
 ## Installer un thème
 https://themes.gohugo.io/
 
-
+## Configuration de base
+~~~
+baseURL = "/"
+languageCode = "fr-fr"
+title = "My New Hugo Site"
+theme = "ananke"
+~~~
