@@ -44,5 +44,9 @@ Installation de [Hugo + le thème Ananke](https://app.forestry.io/quick-start?re
 
 Il suffit ensuite d'ajouter votre contenu depsuis Forestry.
 
+## Usage du thème  
+
+Forestry propose un interface graphique qui permet de modifier la plupart des contenu et des paramètres du site.
+
 
 
