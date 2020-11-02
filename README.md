@@ -48,5 +48,18 @@ Il suffit ensuite d'ajouter votre contenu depsuis Forestry.
 
 Forestry propose un interface graphique qui permet de modifier la plupart des contenu et des paramètres du site.
 
+## Aperçu du site en local
 
+Synchroniser le repertoire Github du projet localement avec Githu Desktop ou en ligne de commande via le terminal.
 
+Via le terminale, se rendre dans le repertoire du projet : 
+~~~
+cd ~/chemin/vers/le/projet
+~~~
+
+Lancer le serveur local :
+~~~
+hugo server
+~~~
+
+Après chaque modification de contenu dans Forestry, synchroniser le contenu local avec Githu Desktop ou en ligne de commande avec `git pull`.
