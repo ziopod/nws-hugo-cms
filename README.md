@@ -68,7 +68,12 @@ Après chaque modification de contenu dans Forestry, synchroniser le contenu loc
 
 ## Deploiement sur Netlify
 
-En préalable, spécifier un fichier de configuration pour Netlify sur votre projet. Ajouter le fichier `netlify.toml`Avec le contenu suivant : 
+En préalable, spécifier un fichier de configuration pour Netlify sur votre projet.
+
+En fonction du thème il est peut-être necessaire de précisier la version de Hugo à utiliser.
+Dans ce cas, ajouter le fichier `netlify.toml` avec la configuration indiqué par le thème.
+
+Pour le thème Ananke le contenu suivant : 
 
 ~~~
 [context.production.environment]
