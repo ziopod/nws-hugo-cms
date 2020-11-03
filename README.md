@@ -37,14 +37,18 @@ Dans le cadre de cette exercice nous utiliseros les services suivant :
 - héberger en CDN : Netlify ;
 - interface de gestion de contenu (CMS) : Forestry ;
 
-Il est à noté que les données du site sont géré avec le code source global du site sous forme de fichiers plats composé d'une entête (frontmatter) au format YAML et d'un contenu au format Markdown. C'est une pratique simple et qui couvre la plupart des usages pour les site web conventionnel, cette solution est disponible par défaut pour la plupart des générateur de site statique. Cependant, le générateur de site statiques sont loin de se limiter aux fichier plat, une JAMstack est prévu pour fonctionner avec tout l'écosystème d'internet (via les interfaces API). Il est donc tout à fait possible (et recommmander) de donner de l'ampleur à son projet web en exploitant des sourcces de données provenant de services SaaS spécialisés (comme Stripe, Shopify, Contenful, Algolia, l'écosystème de Google, et à peut près tout les services web qui possédent une interface API).
+Il est à noté que les données du site sont géré avec le code source global du site sous forme de fichiers plats composé d'une entête (frontmatter) au format YAML et d'un contenu au format Markdown. C'est une pratique simple et qui couvre la plupart des usages pour les site web conventionnel, cette solution est disponible par défaut pour la plupart des générateur de site statique.
 
+Cependant, le générateur de site statiques sont loin de se limiter aux fichier plat, une JAMstack est prévu pour fonctionner avec tout l'écosystème d'internet (via les interfaces API). Il est donc tout à fait possible (et recommmander) de donner de l'ampleur à son projet web en exploitant des sourcces de données provenant de services SaaS spécialisés (comme Stripe, Shopify, Contenful, Algolia, l'écosystème de Google, et à peut près tout les services web qui possédent une interface API).
 
-## Installation de Hugo
+## Mise en œuvre
+Voyons à présent comment mettre en place la stack choisie.
+
+### Installation de Hugo
 Pour une installation simple, utiliser le binaire.
 https://gohugo.io/getting-started/installing/#binary-cross-platform
 
-## Génération d'un site
+### Génération d'un site
 
 Générer avec la commande :
 ~~~
@@ -61,10 +65,10 @@ Tester le site :
 hugo server
 ~~~
 
-## Installer un thème
+### Installer un thème
 https://themes.gohugo.io/
 
-## Configuration de base
+### Configuration de base
 ~~~
 baseURL = "/"
 languageCode = "fr-fr"
@@ -72,7 +76,7 @@ title = "My New Hugo Site"
 theme = "ananke"
 ~~~
 
-## Via Forestry
+### Via Forestry
 
 Forestry permet de générer un dépôt Github avec le un installation de Hugo + unn thème le tout déjà configuré.
 
@@ -82,11 +86,11 @@ Installation de [Hugo + le thème Ananke](https://app.forestry.io/quick-start?re
 
 Il suffit ensuite d'ajouter votre contenu depsuis Forestry.
 
-## Usage du thème  
+### Usage du thème  
 
 Forestry propose un interface graphique qui permet de modifier la plupart des contenu et des paramètres du site.
 
-## Aperçu du site en local
+### Aperçu du site en local
 
 Synchroniser le repertoire Github du projet localement avec Githu Desktop ou en ligne de commande via le terminal.
 
@@ -104,7 +108,7 @@ Après chaque modification de contenu dans Forestry, synchroniser le contenu loc
 
 
 
-## Deploiement sur Netlify
+### Deploiement sur Netlify
 
 En préalable, spécifier un fichier de configuration pour Netlify sur votre projet.
 
@@ -136,7 +140,7 @@ Exemple de projet :
 Depôt Github : https://github.com/ziopod/hugo-ananke-forestry-netlify
 Site sur hébergé sur Netlify : https://festive-dijkstra-b6cf85.netlify.app/
 
-## Ressources
+### Ressources
 
  - [générateur de sites statiques](https://jamstack.org/generators) ;
  - [CMS headless](https://jamstack.org/headless-cms) ;
