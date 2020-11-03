@@ -1,6 +1,44 @@
-# NWS Mise en place du CMS Hugo
+# NWS la JAMstack
 
-Générateur de site statique Hugo : https://gohugo.io
+## Définition d'une JAMstack
+https://jamstack.org/why-jamstack/
+La JAMstack est une architecture de design qui met l'accent sur : 
+- la sécurité informatique (site servi sans code dynamique) ;
+- l'économie de ressources (resources composé à partir de micro-services [SaaS](https://fr.wikipedia.org/wiki/Software_as_a_service)) ;
+- la performance (fichier distribué via [CDN](https://jamstack.org/why-jamstack/)) ;
+- la facilité de maintenance (le site généré est stable, les modifications de codes n'impacte que la génération, jamais le site en production) ;
+- la portabilité (l'essentiel du site étant composé de fichier HTML, il n'est plus nécessaire d'avoir des infrastrucures d'hébergements complexe) ;
+- l'éxpérience de conception (en faisant appel à plusieurs petits outils et services, il est simple d'en expérimenter de nouveau et d'en remplacer certains).
+
+## Choix technologiques
+Pour cet exercice nous composerons notre liste technique (notre stack) d'outils est de services le plus simple possible à prendre en main.
+
+Les besoins minimum pour géré et publier un site personnel sont :
+
+1. générer le site (n'importe quel générateur statique);
+2. héberger le site (n'importe quel herbergeur web).
+
+On peut se contenter d'installer un générateur de site statique localement, produire les fichiers du site, puis de les rendre dispnible en les téléversant sur un serveur web. Cette solution peut être accepatble pour un site personnel, mais est vite limité si le site est conçus par plusieurs personne et doit être alimenté en contenu par des personnes tierces. 
+
+Nous jouteros quelques outils et usages supplémentaire dans le cadre de la conception d'un site professionnel.
+
+Les besoin les plus simples pour gérer un site professionel sont :
+
+1. permettre la collaboration et versionner le site (GIT) ;
+2. gérer les données (interface CMS) ;
+3. générer le site et déployer le site (service CI/CD) ;
+4. hebergement performant (herbergeur CDN).
+
+Dans le cadre de cette exercice nous utiliseros les services suivant :
+
+- versionner et partager le code source : Github ;
+- générateur de site statique : [Hugo](https://gohugo.io) ;
+- générer et déployer : Netlify ;
+- héberger en CDN : Netlify ;
+- interface de gestion de contenu (CMS) : Forestry ;
+
+Il est à noté que les données du site sont géré avec le code source global du site sous forme de fichiers plats composé d'une entête (frontmatter) au format YAML et d'un contenu au format Markdown. C'est une pratique simple et qui couvre la plupart des usages pour les site web conventionnel, cette solution est disponible par défaut pour la plupart des générateur de site statique. Cependant, le générateur de site statiques sont loin de se limiter aux fichier plat, une JAMstack est prévu pour fonctionner avec tout l'écosystème d'internet (via les interfaces API). Il est donc tout à fait possible (et recommmander) de donner de l'ampleur à son projet web en exploitant des sourcces de données provenant de services SaaS spécialisés (comme Stripe, Shopify, Contenful, Algolia, l'écosystème de Google, et à peut près tout les services web qui possédent une interface API).
+
 
 ## Installation de Hugo
 Pour une installation simple, utiliser le binaire.
@@ -97,3 +135,8 @@ Netlify construit (build) le site statique et genère une URL.
 Exemple de projet : 
 Depôt Github : https://github.com/ziopod/hugo-ananke-forestry-netlify
 Site sur hébergé sur Netlify : https://festive-dijkstra-b6cf85.netlify.app/
+
+## Ressources
+
+ - [générateur de sites statiques](https://jamstack.org/generators) ;
+ - [CMS headless](https://jamstack.org/headless-cms) ;
