@@ -20,7 +20,7 @@ Les besoins minimum pour géré et publier un site personnel sont :
 
 On peut se contenter d'installer un générateur de site statique localement, produire les fichiers du site, puis de les rendre dispnible en les téléversant sur un serveur web. Cette solution peut être accepatble pour un site personnel, mais est vite limité si le site est conçus par plusieurs personne et doit être alimenté en contenu par des personnes tierces. 
 
-Nous jouteros quelques outils et usages supplémentaire dans le cadre de la conception d'un site professionnel.
+Nous jouteros quelques outils et usages supplémentaires dans le cadre de la conception d'un site professionnel.
 
 Les besoin les plus simples pour gérer un site professionel sont :
 
@@ -37,7 +37,7 @@ Dans le cadre de cette exercice nous utiliseros les services suivant :
 - héberger en CDN : Netlify ;
 - interface de gestion de contenu (CMS) : Forestry ;
 
-Il est à noté que les données du site sont géré avec le code source global du site sous forme de fichiers plats composé d'une entête (frontmatter) au format YAML et d'un contenu au format Markdown. C'est une pratique simple et qui couvre la plupart des usages pour les site web conventionnel, cette solution est disponible par défaut pour la plupart des générateur de site statique.
+Il est à noter que les données du site sont gérées avec le code source global du site sous forme de fichiers plats composés d'une entête ([frontmatter](https://jekyllrb.com/docs/front-matter/)) au [format YAML](https://fr.wikipedia.org/wiki/YAML) et d'un contenu au [format Markdown](https://fr.wikipedia.org/wiki/Markdown). C'est une pratique simple et qui couvre la plupart des usages pour les site web conventionnel, cette solution est disponible par défaut pour la plupart des générateur de site statique.
 
 Cependant, le générateur de site statiques sont loin de se limiter aux fichier plat, une JAMstack est prévu pour fonctionner avec tout l'écosystème d'internet (via les interfaces API). Il est donc tout à fait possible (et recommmander) de donner de l'ampleur à son projet web en exploitant des sourcces de données provenant de services SaaS spécialisés (comme Stripe, Shopify, Contenful, Algolia, l'écosystème de Google, et à peut près tout les services web qui possédent une interface API).
 
