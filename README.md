@@ -44,105 +44,53 @@ Il est à noter que les données du site sont gérées avec le code source globa
 Cependant, le générateur de site statiques sont loin de se limiter aux fichier plat, une JAMstack est prévu pour fonctionner avec tout l'écosystème d'internet (via les interfaces API). Il est donc tout à fait possible (et recommmander) de donner de l'ampleur à son projet web en exploitant des sourcces de données provenant de services SaaS spécialisés (comme Stripe, Shopify, Contenful, Algolia, l'écosystème de Google, et à peut près tout les services web qui possédent une interface API).
 
 ## Mise en œuvre
-Voyons à présent comment mettre en place la stack choisie.
+Voyons à présent comment mettre en place une JAMstack.
 
-### Installation de Hugo
-Pour une installation simple, utiliser le binaire.
-https://gohugo.io/getting-started/installing/#binary-cross-platform
+Nous allons avoir besoins des services suivants : 
+- Versionné et distributer le code source : [Github](github.com/) ;
+- Gérer le contenu : [Forestry](forestry.io) ;
+- Construire et héberger le site : [Netlify](netlify.com).
 
-### Génération d'un site
+Dans un premier temps, il nous faut un compte utilisateur Github, les autres service ce connecterons à travers celui-ci.
 
-Générer avec la commande :
-~~~
-hugo new site Hello
-~~~
+## Étape 1 : Mise en place du code source
+Pour nous simplifier la tâche, nous allons utliser les ["paquets de démarrage" (starters) de Forestry](https://forestry.io/starters). Celui-ci vas nous guider pour configurer notre JAMstack.
 
-Se rendre dans le répertoire du site :
-~~~
-cd Hello
-~~~
+**Rendez-vous sur la page [Starters de Forestry](https://forestry.io/starters)**, nous allons choisir le thème de démarrage Hugo "Ananke", [cliquez sur la flêche, puis sur "Hugo"](https://app.forestry.io/quick-start?repo=forestryio%2fhugo-ananke-forestry&branch=master&engine=hugo&preview=https://res.cloudinary.com/forestry-io/image/fetch/w_400,h_300,c_fill,f_jpg/https://forestry.io/img/starters/ananke.jpg).
 
-Tester le site :
-~~~
-hugo server
-~~~
+Forestry vous invite à **choisir le frounisseur de code source**, nous choisirons "Github", une fenêtre d'authentification de Github s'ouvre, une fois connecté, choissisez un nom pour votre nouveau dépôt, puis **cliquez sur "import site to Forestry"**.
 
-### Installer un thème
-https://themes.gohugo.io/
+Forestry vous dirige maintenant sur **l'interface d'administration de contenu**. Celle-ci est pré-configuré avec un peu de contenu. D'ici vous pouvez créer / modifier / supprimer des pages et des articles du site et également agir sur le menu de navigation principale du site.
 
-### Configuration de base
-~~~
-baseURL = "/"
-languageCode = "fr-fr"
-title = "My New Hugo Site"
-theme = "ananke"
-~~~
+Jetez un œil à votre compte Github, vous devreiez y voir le nouveau dépôt créer par Forestry.
 
-### Via Forestry
+## Étape 2 : Hébergement du site
 
-Forestry permet de générer un dépôt Github avec le un installation de Hugo + unn thème le tout déjà configuré.
+Nous allons maintenant configurer l'hébergement de notre site sur Netlify.
 
-Les starter de Forestry : https://forestry.io/starters/
+Connectez-vous sur https://app.netlify.com avec votre compte Github.
 
-Installation de [Hugo + le thème Ananke](https://app.forestry.io/quick-start?repo=forestryio%2fhugo-ananke-forestry&branch=master&engine=hugo&preview=https://res.cloudinary.com/forestry-io/image/fetch/w_400,h_300,c_fill,f_jpg/https://forestry.io/img/starters/ananke.jpg)
+Vous arrivez sur votre tableau de bord, **créez un nouveau site** en cliquant sur "New site from Git", choisissez "Github". Sous le nom de votre compte Github sont listé vos projet relié à Netlify, vous ne devriez pas y voir votre projet pour le moment. **Configurez Netlify app sur voetr compte Githug** en cliquant sur "Configure the Netlify app on Github".
 
-Il suffit ensuite d'ajouter votre contenu depsuis Forestry.
+Une fenêtre de configuration Github s'ouvre, en bas de la page **rendez-vous à la rubrique "Repository access"**, puis choisissez "Only select repositories" et
+dans le menu déroulant, **choisissez le dépôt correspondant à votre projet de site statique** et sauvegardez.
 
-### Usage du thème  
+Poursuivez l'installation en selectionner vote dépôt dépuis Netlify. Dans le champ "Build command" saissisez `hugo --minify`, dans le champ "Publish directory" saisissez `public`. Cliquez sur "Deploy".
 
-Forestry propose un interface graphique qui permet de modifier la plupart des contenu et des paramètres du site.
+Votre site est en cours de déploiement, dans le menu "Deploys" observez **l'échec de votre déploiement** : "Production: master@{commit} Failed" (vous pouvez cliquer dessus pour voir le journal de déploiement). Ceci est dû à un soucis de compatibilité entre la version de Hugo du thème et celui de Netlify.
 
-### Aperçu du site en local
-
-Synchroniser le repertoire Github du projet localement avec Githu Desktop ou en ligne de commande via le terminal.
-
-Via le terminale, se rendre dans le repertoire du projet : 
-~~~
-cd ~/chemin/vers/le/projet
-~~~
-
-Lancer le serveur local :
-~~~
-hugo server
-~~~
-
-Après chaque modification de contenu dans Forestry, synchroniser le contenu local avec Githu Desktop ou en ligne de commande avec `git pull`.
-
-
-
-### Deploiement sur Netlify
-
-En préalable, spécifier un fichier de configuration pour Netlify sur votre projet.
-
-En fonction du thème il est peut-être necessaire de précisier la version de Hugo à utiliser.
-Dans ce cas, ajouter le fichier `netlify.toml` avec la configuration indiqué par le thème.
-
-Pour le thème Ananke le contenu suivant : 
-
+**Pour remédier à ce bug** nous allons ajouter un fichier de [configuration pour Netlify](https://docs.netlify.com/configure-builds/common-configurations). Sur le dépôt Github de votre projet, ajouter un fichier `netlify.toml` dans le quel vous saissisez : 
 ~~~
 [context.production.environment]
 HUGO_VERSION = "0.75.1"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
 ~~~
 
-Documentation : [Netlify & Hugo configuration courante](https://docs.netlify.com/configure-builds/common-configurations/#hugo)
+Sur l'onglet "Deploys" de Netlify, observer le déploiement de votre site. Un fois faite, vous devriez obtenir "Prodcution: master@‘commit} published".
 
-1. Se connecter à Netlify
-2. Créer un nouveau site (depuis Netlify)
-3. Selectionner le dépôt Github correspondant au projet, puis valider.
+Cliquez sur le sous-domaine généré par Netlify (par ex. https://epic-jennings-c38ea0.netlify.app), votre site est en ligne !
 
-Paramètre à préciser sur le projet Netlify (deplay settings) : 
- - Build command : `hugo --minify`
- - Publish Directory : `public`
+En cas de soucis, vérifiez bien vos fichier de configurations.
 
-Netlify construit (build) le site statique et genère une URL.
-
-Exemple de projet : 
-Depôt Github : https://github.com/ziopod/hugo-ananke-forestry-netlify
-Site sur hébergé sur Netlify : https://festive-dijkstra-b6cf85.netlify.app/
-
-### Ressources
-
- - [générateur de sites statiques](https://jamstack.org/generators) ;
- - [CMS headless](https://jamstack.org/headless-cms) ;
+Documentation sur Hugo et netlify : 
+ - [chez Netlify](https://docs.netlify.com/configure-builds/common-configurations/#hugo)
+ - [chez Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-netlify)
