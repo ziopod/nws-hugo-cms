@@ -53,7 +53,7 @@ Nous allons avoir besoins des services suivants :
 
 Dans un premier temps, il nous faut un compte utilisateur Github, les autres service ce connecterons à travers celui-ci.
 
-## Étape 1 : Mise en place du code source
+### Étape 1 : Mise en place du code source
 Pour nous simplifier la tâche, nous allons utliser les ["paquets de démarrage" (starters) de Forestry](https://forestry.io/starters). Celui-ci vas nous guider pour configurer notre JAMstack.
 
 **Rendez-vous sur la page [Starters de Forestry](https://forestry.io/starters)**, nous allons choisir le thème de démarrage Hugo "Ananke", [cliquez sur la flêche, puis sur "Hugo"](https://app.forestry.io/quick-start?repo=forestryio%2fhugo-ananke-forestry&branch=master&engine=hugo&preview=https://res.cloudinary.com/forestry-io/image/fetch/w_400,h_300,c_fill,f_jpg/https://forestry.io/img/starters/ananke.jpg).
@@ -64,7 +64,7 @@ Forestry vous dirige maintenant sur **l'interface d'administration de contenu**.
 
 Jetez un œil à votre compte Github, vous devreiez y voir le nouveau dépôt créer par Forestry.
 
-## Étape 2 : Hébergement du site
+### Étape 2 : Hébergement du site
 
 Nous allons maintenant configurer l'hébergement de notre site sur Netlify.
 
@@ -94,3 +94,82 @@ En cas de soucis, vérifiez bien vos fichier de configurations.
 Documentation sur Hugo et netlify : 
  - [chez Netlify](https://docs.netlify.com/configure-builds/common-configurations/#hugo)
  - [chez Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-netlify)
+
+### Serveur local
+
+Pour afficher votre site en local, il sufit de récupérer avec un `git clone` ou via Github Desktop.
+
+Via le terminal, placer le pointeur du terminal dans le repertoire de votre projet :
+
+~~~
+cd chemin/vers/votre/projet
+~~~
+
+Puis de lancer le serverur local de Hugo :
+~~~
+hugo server
+~~~
+
+N'oublier de préfixer la commande `hugo` avec le chemin vers votre binaire si vous utilisez le binaire de Hugo (par exemple `../hugo server` sur Macosx et Linux ou `..\hugo` sur Windows).
+
+Ouvrez votre novigateur web à l'adresse indiqué dans le terminal (http://localhost:1313 par défaut).
+
+## Personnalisation du thème
+
+Il est tout à fait possible de personnalié un thème. En premier lieu il faut explorer la conception du thème afin de personnaliser le thème sans dégrader ses performances, cela permet également de mieux comprendre la conception d'un thème Hugo.
+
+### Exploration du thème
+
+Le thème que nos avons via Forestry est configuré sous forme de [module Hugo](https://gohugo.io/hugo-modules). Pour retrouver les sources d'origine du thème, il faut explorer le fichier de configuration `config.yml` (notez que les fichier de configuration sont parfois au format `toml`). À la 5ème linge nous voyons le code suivant : 
+~~~
+module:
+  imports:
+    - path: github.com/theNewDynamic/gohugo-theme-ananke
+~~~
+
+La valeur de `path` est le chemin des sources du thème, il suffit de le copier / cller dans la barre d'adresse d'un navigateur web pour consulter les source.
+
+Le thème est docummenté (fichier `README.md`), cette documentation nous indique comment personnalisé utiliser et personnalisé le thème.
+
+Nous voyons qu'il possible de [modifier la typo principale et la couleur de fond](https://github.com/theNewDynamic/gohugo-theme-ananke#update-font-or-body-classes).
+
+Dans le fichier `config.yml`, personalisons `body_classes` en choisissant une typo et une couler compatible avec le thème : 
+~~~
+params:
+  body_classes: baskerville bg-moon-gray
+~~~
+
+Observez le résultat sur votre serveur local.
+
+### Modifier des fichiers de template
+
+Hugo utilise un mécanisme de [priorité de template](https://gohugo.io/templates/lookup-order) (le Lookup Order) qui permet de sur-classer certains fichiers.
+
+De cette manière, il est possible de remplacer n'importe quel fichier du thème par ces propres fichiers.
+
+Modifions la page d'accueil par exemple, sur le dépôt du thème Ananke, elle se trouve dans repertoire `layouts/index.html`. Pour pouvoir la remplacer par notre page d'accueil personnaliser, nous allons créer le même ficher avec le même chemin. Hugo remplacera ainsi le fichier d'index du thème par le notre.
+
+Dans votre repertoire local, créez le fichier `layout/index.html`, copier le code source du fichier `layouts/index.html` du thème Ananke et collez le dans votre propre fichier `index.html`.
+
+À noter que la documentaion d'Ananke nous indique que le thème utilise le framework CSS [Tachyons](http://tachyons.io)
+
+À la ligne 2 du fichier, modifiez cette portion de code comme ceci : 
+~~~
+<article class="cf ph3 ph5-l pv3 pv4-l f4 center measure-wide lh-copy mid-gray">   
+  <div class="fl w-100 w-two-thirds-ns pa2">
+    {{ .Content }}
+  </div>
+  <div class="fl w-100 w-third-ns pa2">  
+    <h3>Bloc personnalisé</h3>
+    <p>Hello</p>
+  </div>
+</article>
+~~~
+
+Nous avons supprimé la classe `tc-l` de la balise `article`, [d'après la documentation de Tachyons](http://tachyons.io/docs/typography/text-align/), `tc` est pour appliquer la propriété CSS `tex-align: center`, le `-l` est pour indiquer que ce règlage ne [s'applique que sur les écrans larges](https://github.com/tachyons-css/tachyons/blob/master/src/_text-align.css).
+
+Le balises `div` aditionnelles nous permmettent de créer deux colonnes avec [le système de grille de Tachyons](http://tachyons.io/docs/layout/grid/), une en deux tiers avec la classe `two-thirds` et une autre de 1 tier avec la classe `third`. Le suffixe `-ns` indique le réglage ne s'applique ras pas sur les petits écrans (ns = Not Small).
+
+### Personnaliser le CSS
+
+Il est possible d'ajouter sont propre CSS : https://github.com/theNewDynamic/gohugo-theme-ananke#custom-css
