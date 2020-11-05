@@ -91,9 +91,26 @@ Cliquez sur le sous-domaine généré par Netlify (par ex. https://epic-jennings
 
 En cas de soucis, vérifiez bien vos fichier de configurations.
 
-Documentation sur Hugo et netlify : 
+Documentation sur le fonctionement de Hugo avec netlify : 
  - [chez Netlify](https://docs.netlify.com/configure-builds/common-configurations/#hugo)
  - [chez Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-netlify)
+
+### Configuation du thème
+
+Le fichier `config.yml` vous permet de configurer certains détails de votre site. Notamment : 
+
+La configuration de **l'adresse de base du site** peut poser problème pour l'accès à certaines ressources du site tant que le nom de domaine n'est pas définitif. Pour éviter tout problème, passons cette adresse en chemin relatif : 
+~~~
+baseURL: "/"
+~~~
+
+**La langue du site**, indiquez que le contennu éditoriale de votre site est en français :
+~~~
+languageCode: "fr-fr"
+~~~
+
+Consultez le site officiel [plus d'informations sur la configuration de Hugo](https://gohugo.io/getting-started/configuration/).
+
 
 ### Serveur local
 
