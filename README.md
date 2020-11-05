@@ -53,6 +53,8 @@ Nous allons avoir besoins des services suivants :
 
 Dans un premier temps, il nous faut un compte utilisateur Github, les autres service ce connecterons à travers celui-ci.
 
+Gardez à l'esprit que tout ces services proposent **une offre gratuite limité**. Cela est suffisant pour de petits sites, mais peut vous **imposer à passer sur une offre payante** dans le cas d'un usage professionnel plus intensif. N'hésiter pas à **consulter les grilles de tarifs** afin de vous renseigner sur les limites de chaque offre (à titre d'exemple Netlify facture ses services de build à la "consommation", ce qui provoque parfois des "factures surprise" quand on abuse trop des mises à jour du site (l'offre gratuite étant limité à 300 builds/mois)).
+
 ### Étape 1 : Mise en place du code source
 Pour nous simplifier la tâche, nous allons utliser les ["paquets de démarrage" (starters) de Forestry](https://forestry.io/starters). Celui-ci vas nous guider pour configurer notre JAMstack.
 
