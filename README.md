@@ -1,14 +1,16 @@
 # NWS la JAMstack
 
 ## Définition d'une JAMstack
-https://jamstack.org/why-jamstack/
-La JAMstack est une architecture de design qui met l'accent sur : 
+
+La [JAMstack](https://jamstack.org/what-is-jamstack) est une architecture de design qui met l'accent sur : 
 - la sécurité informatique (site servi sans code dynamique) ;
 - l'économie de ressources (resources composé à partir de micro-services [SaaS](https://fr.wikipedia.org/wiki/Software_as_a_service)) ;
-- la performance (fichier distribué via [CDN](https://jamstack.org/why-jamstack/)) ;
+- la performance (fichier distribué via [CDN](https://jamstack.org/why-jamstack)) ;
 - la facilité de maintenance (le site généré est stable, les modifications de codes n'impacte que la génération, jamais le site en production) ;
 - la portabilité (l'essentiel du site étant composé de fichier HTML, il n'est plus nécessaire d'avoir des infrastrucures d'hébergements complexe) ;
 - l'éxpérience de conception (en faisant appel à plusieurs petits outils et services, il est simple d'en expérimenter de nouveau et d'en remplacer certains).
+
+Documentation : [Définition d'une JAMstack par NETlify](https://www.netlify.com/jamstack)
 
 ## Choix technologiques
 Pour cet exercice nous composerons notre liste technique (notre stack) d'outils est de services le plus simple possible à prendre en main.
