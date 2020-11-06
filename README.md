@@ -60,7 +60,7 @@ Pour nous simplifier la tâche, nous allons utliser les ["paquets de démarrage"
 
 **Rendez-vous sur la page [Starters de Forestry](https://forestry.io/starters)**, nous allons choisir le thème de démarrage Hugo "Ananke", [cliquez sur la flêche, puis sur "Hugo"](https://app.forestry.io/quick-start?repo=forestryio%2fhugo-ananke-forestry&branch=master&engine=hugo&preview=https://res.cloudinary.com/forestry-io/image/fetch/w_400,h_300,c_fill,f_jpg/https://forestry.io/img/starters/ananke.jpg).
 
-Forestry vous invite à **choisir le frounisseur de code source**, nous choisirons "Github", une fenêtre d'authentification de Github s'ouvre, une fois connecté, choissisez un nom pour votre nouveau dépôt, puis **cliquez sur "import site to Forestry"**.
+Forestry vous invite à **choisir le fournisseur de code source**, nous choisirons "Github", une fenêtre d'authentification de Github s'ouvre, une fois connecté, choissisez un nom pour votre nouveau dépôt, puis **cliquez sur "import site to Forestry"**.
 
 Forestry vous dirige maintenant sur **l'interface d'administration de contenu**. Celle-ci est pré-configuré avec un peu de contenu. D'ici vous pouvez créer / modifier / supprimer des pages et des articles du site et également agir sur le menu de navigation principale du site.
 
@@ -72,7 +72,7 @@ Nous allons maintenant configurer l'hébergement de notre site sur Netlify.
 
 Connectez-vous sur https://app.netlify.com avec votre compte Github.
 
-Vous arrivez sur votre tableau de bord, **créez un nouveau site** en cliquant sur "New site from Git", choisissez "Github". Sous le nom de votre compte Github sont listé vos projet relié à Netlify, vous ne devriez pas y voir votre projet pour le moment. **Configurez Netlify app sur voetr compte Githug** en cliquant sur "Configure the Netlify app on Github".
+Vous arrivez sur votre tableau de bord, **créez un nouveau site** en cliquant sur "New site from Git", choisissez "Github". Sous le nom de votre compte Github sont listé vos projet relié à Netlify, vous ne devriez pas y voir votre projet pour le moment. **Configurez Netlify app sur votre compte Github** en cliquant sur "Configure the Netlify app on Github".
 
 Une fenêtre de configuration Github s'ouvre, en bas de la page **rendez-vous à la rubrique "Repository access"**, puis choisissez "Only select repositories" et
 dans le menu déroulant, **choisissez le dépôt correspondant à votre projet de site statique** et sauvegardez.
