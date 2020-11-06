@@ -22,7 +22,7 @@ Les besoins minimum pour géré et publier un site personnel sont :
 
 On peut se contenter d'installer un générateur de site statique localement, produire les fichiers du site, puis de les rendre dispnible en les téléversant sur un serveur web. Cette solution peut être accepatble pour un site personnel, mais est vite limité si le site est conçus par plusieurs personne et doit être alimenté en contenu par des personnes tierces. 
 
-Nous jouteros quelques outils et usages supplémentaires dans le cadre de la conception d'un site professionnel.
+Nous ajouterons quelques outils et usages supplémentaires dans le cadre de la conception d'un site professionnel.
 
 Les besoin les plus simples pour gérer un site professionel sont :
 
@@ -188,6 +188,8 @@ Dans votre repertoire local, créez le fichier `layout/index.html`, copier le co
 Nous avons supprimé la classe `tc-l` de la balise `article`, [d'après la documentation de Tachyons](http://tachyons.io/docs/typography/text-align/), `tc` est pour appliquer la propriété CSS `tex-align: center`, le `-l` est pour indiquer que ce règlage ne [s'applique que sur les écrans larges](https://github.com/tachyons-css/tachyons/blob/master/src/_text-align.css).
 
 Le balises `div` aditionnelles nous permmettent de créer deux colonnes avec [le système de grille de Tachyons](http://tachyons.io/docs/layout/grid/), une en deux tiers avec la classe `two-thirds` et une autre de 1 tier avec la classe `third`. Le suffixe `-ns` indique le réglage ne s'applique ras pas sur les petits écrans (ns = Not Small).
+
+Note : Il est parfois nécessaire de redémarrer votre serveur local pour afficher les modification de votre thème, pour cela, faites le raccourcis `ctrl + c` dans votre terminal pour arrêter le serveur local, puis de nouveau `hugo server` pour le relancer. 
 
 ### Personnaliser le CSS
 
