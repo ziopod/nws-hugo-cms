@@ -193,4 +193,4 @@ Note : Il est parfois nécessaire de redémarrer votre serveur local pour affich
 
 ### Personnaliser le CSS
 
-Il est possible d'ajouter sont propre CSS : https://github.com/theNewDynamic/gohugo-theme-ananke#custom-css
+Il est possible d'ajouter son propre CSS : https://github.com/theNewDynamic/gohugo-theme-ananke#custom-css
