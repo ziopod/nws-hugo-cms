@@ -2,7 +2,14 @@
 
 Passons en revue les fonctionnalités essentielles pour personnaliser un thème Hugo.
 
-**En fonction de vos pré-requis**, il est judicieux de choisir un thème adapté. Par exemple, ne vous lancer pas dans la création d'un thème avec peu de connaissance en HTML et CSS.
+**En fonction de vos pré-requis**, il est judicieux de choisir un thème adapté. Par exemple, ne vous lancer pas dans la création d'un thème avec peu de connaissances en HTML et CSS.
+
+Vos critère de choix pour un thème, est-que ce thème : 
+ - possède un installeur automatique sur Forestry ;
+ - couvre le besoin éditorial ;
+ - permet une configuration du design (couleurs, layout) ;
+ - exploite un framework CSS que je connais ;
+ - une technologie CSS que je connais (pré ou post processeur) ;
 
 ## Configuration d'un thème
 
