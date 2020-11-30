@@ -4,10 +4,10 @@ languageCode: fr-fr
 title: Hugo Ananke Forestry Starter
 theme: ananke
 DefaultContentLanguage: en
-SectionPagesMenu: 
-  - main
-  - footer
-  - main
+SectionPagesMenu:
+- main
+- footer
+- main
 Paginate: 3
 googleAnalytics: ''
 enableRobotsTXT: true
