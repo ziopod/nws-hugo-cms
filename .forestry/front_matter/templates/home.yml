@@ -1,0 +1,34 @@
+---
+label: Home
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: featured_image
+  label: featured_image
+- type: text
+  name: description
+  label: description
+- name: call_to_action
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titre
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Contenu
+  label: Appel à l'action
+pages:
+- content/_index.md

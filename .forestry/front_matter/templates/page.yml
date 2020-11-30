@@ -26,5 +26,4 @@ fields:
       path: 
   label: Menu
 pages:
-- content/_index.md
 - content/about/_index.md
