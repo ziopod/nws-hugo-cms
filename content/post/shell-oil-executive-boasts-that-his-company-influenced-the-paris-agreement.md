@@ -23,7 +23,7 @@ To hear him tell it, their involvement has been wildly successful. “We have ha
 Jesse Bragg, communications director for Corporate Accountability, told me, “In some ways, I’m pretty thankful that Shell was so honest about what many campaigners have been saying for a long time: that the very corporations that created this crisis are at the table and writing the supposed solutions for getting us out of it.”
 
   
-Under the U.N. Framework Convention on Climate Change, only state actors can officially negotiate over the text of climate agreements, including the Paris agreement. Unions, civil society groups, and corporations can be observers to that process.  
+Under the [U.N. Framework Convention on Climate Change](https://unfccc.int/ "United Nations Framework Convention on Climate Change"), only state actors can officially negotiate over the text of climate agreements, including the Paris agreement. Unions, civil society groups, and corporations can be observers to that process.  
 Hone added that he’s been “chatting with some of the delegations” and that the “the \[European Union’s\] position is not that different from how Shell sees this.”
 
 ## Shell is taking credit
