@@ -7,8 +7,8 @@ menu:
     weight: 1
 call_to_action:
   title: Nous soutenir
-  content: Pour nous soutenir rendez-vous nous vous expliquons tout sur <a href="/about">notre
-    page dédié</a>.
+  content: Pour nous soutenir rendez-vous nous vous expliquons tout sur [notre page
+    dédié](/about).
 
 ---
 Fearless, adversarial journalism that holds the powerful accountable.
