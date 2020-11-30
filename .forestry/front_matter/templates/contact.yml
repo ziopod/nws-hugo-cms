@@ -20,5 +20,17 @@ fields:
   label: type
   default: page
   hidden: true
+- name: menu
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Menu
 pages:
 - content/contact.md
