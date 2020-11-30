@@ -4,12 +4,14 @@ description = "Shell oil helped write the Paris climate agreement, according to 
 disable_share = true
 featured_image = "/images/shell-oil-executive-boasts-that-his-company-influenced-the-paris-agreement.jpg"
 tags = ["scene"]
-title = "Shell Oil Executive Boasts That His Company Influenced the Paris Agreement"
+title = "Shell Oil Executive Boasts"
 
 +++
 # Shell Oil Executive Boasts That His Company Influenced the Paris Agreement
 
-Shell oil helped write the Paris climate agreement, according to a top Royal Dutch Shell executive.  
+Shell oil helped write the Paris climate agreement, according to a top Royal Dutch Shell executive.
+
+![Gravure de procession.](/images/Pope-Edouard-de-Beaumont-1844.jpg "De tout les gens se sont rassemblés")  
 They’re also the world’s ninth-largest producer of greenhouse gas emissions.  
 The executive, Shell’s Chief Climate Change Adviser David Hone, made his comments at the international climate change conference COP 24 on Friday. Hone was candid about just how much of a hand his company — through their involvement with the International Emissions Trading Association — had in writing the Paris agreement.  
 The agreement is the centerpiece of the conference in Poland, where delegates are trying to draft a rulebook for how to implement it. IETA is a business lobby comprised of corporations including fossil fuel producers that pushes for “market-based climate solutions,” including at United Nations climate talks.  
