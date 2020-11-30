@@ -194,3 +194,15 @@ Note : Il est parfois nécessaire de redémarrer votre serveur local pour affich
 ### Personnaliser le CSS
 
 Il est possible d'ajouter son propre CSS : https://github.com/theNewDynamic/gohugo-theme-ananke#custom-css
+
+## Objectifs
+
+Les objectifs suivants seront évalués : 
+ - installation complète fonctionnelle (Forestry, Github, Netlify) ;
+ - fournir un lien vers le site généré par Netlify
+   À indiquer dans la description du projet Github
+ - Ajouter un bloc de texte personnalisé ;
+ - Ajouter une navigation de pied de page personnalisé ;
+ - Rendre le bloc personnalisé éditable ;
+ - Ajouter un contenu original (l'image de couverture et le contenu par défaut de Ananke ne doit pas apparaite)
+ - Éventuellement, personnalisé la fonte et la couleur du site via la configuration du thème.
