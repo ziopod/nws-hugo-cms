@@ -2,7 +2,6 @@
 date = 2020-11-30T13:32:29Z
 description = ""
 disable_share = false
-draft = true
 featured_image = "/images/shell-oil-executive-boasts-that-his-company-influenced-the-paris-agreement.jpg"
 tags = ["scene"]
 title = "Shell Oil Executive Boasts That His Company Influenced the Paris Agreement"
