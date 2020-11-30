@@ -207,4 +207,4 @@ Les objectifs suivants seront évalués :
  - [ ] Rendre le bloc personnalisé éditable ;
  - [ ] Ajouter un contenu original (l'image de couverture et le contenu par défaut de Ananke ne doit pas apparaite)
  - [ ] Éventuellement, personnalisé la fonte et la couleur du site via la configuration du thème.
- - [ ] Prendre soin des informations SEO (remplir les champs de description et des descriptions d'images)
+ - [ ] Prendre soin des informations SEO (poitns SEO : Titre & description dela page, texte alternatif sur les images, titrage et inter-titrage de l'article, mettre en valeur des termes avec de l'italique, du gras et des liens).
