@@ -30,8 +30,3 @@ params:
   featured_image: "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number: 2
   body_classes: baskerville bg-moon-gray
-menu:
-  main:
-  - url: https://example.com
-    name: Example
-    weight: 2
