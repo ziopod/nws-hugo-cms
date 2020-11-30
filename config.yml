@@ -1,12 +1,8 @@
+---
 baseURL: "/"
-languageCode: "fr-fr"
-title: "Hugo Ananke Forestry Starter"
-
-# module:
-#   imports:
-#     - path: github.com/theNewDynamic/gohugo-theme-ananke
+languageCode: fr-fr
+title: Hugo Ananke Forestry Starter
 theme: ananke
-
 DefaultContentLanguage: en
 SectionPagesMenu: ["main", "footer"]
 Paginate: 3
@@ -21,7 +17,7 @@ params:
   site_logo: ''
   description: The last theme you'll ever need. Maybe.
   facebook: ''
-  twitter: 'https://twitter.com/GoHugoIO'
+  twitter: https://twitter.com/GoHugoIO
   instagram: ''
   youtube: ''
   github: ''
@@ -32,6 +28,6 @@ params:
   stackoverflow: ''
   rss: ''
   background_color_class: bg-black
-  featured_image: /images/gohugo-default-sample-hero-image.jpg
+  featured_image: "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number: 2
   body_classes: baskerville bg-moon-gray
