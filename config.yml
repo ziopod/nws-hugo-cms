@@ -7,6 +7,7 @@ DefaultContentLanguage: en
 SectionPagesMenu: 
   - main
   - footer
+  - main
 Paginate: 3
 googleAnalytics: ''
 enableRobotsTXT: true
