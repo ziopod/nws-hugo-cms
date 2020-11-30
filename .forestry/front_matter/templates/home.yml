@@ -21,9 +21,13 @@ fields:
       required: false
     label: Titre
   - name: content
-    type: text
+    type: textarea
+    default: ''
     config:
       required: false
+      wysiwyg: false
+      schema:
+        format: markdown
     label: Contenu
   label: Appel à l'action
 pages:
