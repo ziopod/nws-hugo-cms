@@ -203,6 +203,7 @@ Les objectifs suivants seront évalués :
    À indiquer dans la description du projet Github
  - [ ] Ajouter un bloc de texte personnalisé ;
  - [ ] Ajouter une navigation de pied de page personnalisé ;
+ - [ ] Ajouter un logo personnalisé ;
  - [ ] Rendre le bloc personnalisé éditable ;
  - [ ] Ajouter un contenu original (l'image de couverture et le contenu par défaut de Ananke ne doit pas apparaite)
  - [ ] Éventuellement, personnalisé la fonte et la couleur du site via la configuration du thème.
