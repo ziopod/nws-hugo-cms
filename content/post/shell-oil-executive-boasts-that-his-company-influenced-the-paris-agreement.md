@@ -7,9 +7,8 @@ tags = ["scene"]
 title = "Shell Oil Executive Boasts That His Company Influenced the Paris Agreement"
 
 +++
-\# Shell Oil Executive Boasts That His Company Influenced the Paris Agreement
+# Shell Oil Executive Boasts That His Company Influenced the Paris Agreement
 
-  
 Shell oil helped write the Paris climate agreement, according to a top Royal Dutch Shell executive.  
 They’re also the world’s ninth-largest producer of greenhouse gas emissions.  
 The executive, Shell’s Chief Climate Change Adviser David Hone, made his comments at the international climate change conference COP 24 on Friday. Hone was candid about just how much of a hand his company — through their involvement with the International Emissions Trading Association — had in writing the Paris agreement.  
