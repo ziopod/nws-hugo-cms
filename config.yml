@@ -1,7 +1,7 @@
 ---
 baseURL: "/"
 languageCode: fr-fr
-title: Hugo Ananke Forestry Starter
+title: Ghost
 theme: ananke
 DefaultContentLanguage: en
 Paginate: 3
