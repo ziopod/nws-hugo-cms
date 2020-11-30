@@ -1,9 +1,10 @@
 ---
-title: 'Ananke: a Hugo Theme'
-featured_image: "/images/gohugo-default-sample-hero-image.jpg"
-description: The last theme you'll ever need. Maybe.
-call_to_action: 
-  title: "Bloc d'appel à l'action"
-  content: "Contenu du bloc"
+title: Ghost
+featured_image: "/images/u-s-_post_office_independent_media_center_urbana_illinois_from_west.jpg"
+description: Independant media
+menu:
+  '':
+    weight: 1
+
 ---
-Welcome to my blog with some of my work in progress. I've been working on this book idea. You can read some of the chapters below.
+Fearless, adversarial journalism that holds the powerful accountable.

@@ -1,9 +1,11 @@
 ---
 title: À propos de Ghost
 description: Fearless, adversarial journalism that holds the powerful accountable.
-menu: main
----
+menu:
+  main:
+    weight: 1
 
+---
 ## À propos de Ghost
 After NSA whistleblower Edward Snowden came forward with revelations of mass surveillance in 2013, journalists Glenn Greenwald, Laura Poitras, and Jeremy Scahill decided to found a new media organization dedicated to the kind of reporting those disclosures required: fearless, adversarial journalism. They called it The Intercept.
 

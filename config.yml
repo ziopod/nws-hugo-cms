@@ -1,7 +1,7 @@
 ---
 baseURL: "/"
 languageCode: fr-fr
-title: Hugo Ananke Forestry Starter
+title: Ghost
 theme: ananke
 DefaultContentLanguage: en
 Paginate: 3
@@ -30,8 +30,3 @@ params:
   featured_image: "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number: 2
   body_classes: baskerville bg-moon-gray
-menu:
-  main:
-  - url: https://example.com
-    name: Example
-    weight: 2
