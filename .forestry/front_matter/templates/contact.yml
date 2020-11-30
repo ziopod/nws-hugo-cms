@@ -25,7 +25,9 @@ fields:
   default: []
   config:
     required: false
-    options: []
+    options:
+    - main
+    - footer
     source:
       type: simple
       section: 
