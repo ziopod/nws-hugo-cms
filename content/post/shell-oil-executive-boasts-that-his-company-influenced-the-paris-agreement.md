@@ -26,6 +26,8 @@ Jesse Bragg, communications director for Corporate Accountability, told me, “I
 Under the U.N. Framework Convention on Climate Change, only state actors can officially negotiate over the text of climate agreements, including the Paris agreement. Unions, civil society groups, and corporations can be observers to that process.  
 Hone added that he’s been “chatting with some of the delegations” and that the “the \[European Union’s\] position is not that different from how Shell sees this.”
 
+## Shell is taking credit
+
   
 Article 6, the provision that Shell is taking credit for, outlines carbon markets as one of the chief ways that oil companies and other major polluters can rein in their emissions, allowing them to purchase credits for emissions reductions elsewhere instead of just reducing them directly. Such systems have been racked with controversy and do basically nothing to reduce the local impacts of extraction.
 
