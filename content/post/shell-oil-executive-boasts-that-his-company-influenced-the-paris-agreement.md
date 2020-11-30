@@ -9,17 +9,27 @@ title = "Shell Oil Executive Boasts"
 +++
 # Shell Oil Executive Boasts That His Company Influenced the Paris Agreement
 
-Shell oil helped write the Paris climate agreement, according to a top Royal Dutch Shell executive.
+Shell oil helped write the _Paris climate agreement_, according to a top Royal Dutch Shell executive.
 
 ![Gravure de procession.](/images/Pope-Edouard-de-Beaumont-1844.jpg "De tout les gens se sont rassemblés")  
 They’re also the world’s ninth-largest producer of greenhouse gas emissions.  
-The executive, Shell’s Chief Climate Change Adviser David Hone, made his comments at the international climate change conference COP 24 on Friday. Hone was candid about just how much of a hand his company — through their involvement with the International Emissions Trading Association — had in writing the Paris agreement.  
-The agreement is the centerpiece of the conference in Poland, where delegates are trying to draft a rulebook for how to implement it. IETA is a business lobby comprised of corporations including fossil fuel producers that pushes for “market-based climate solutions,” including at United Nations climate talks.  
-To hear him tell it, their involvement has been wildly successful. “We have had a process running for four years for the need of carbon unit trading to be part of the Paris agreement. We can take some credit for the fact that Article 6 \[of the Paris agreement\] is even there at all,” Hone said at an IETA side event within the Katowice, Poland, conference center. “We put together a straw proposal. Many of the elements of that straw proposal appear in the Paris agreement. We put together another straw proposal for the rulebook, and we saw some of that appear in the text.”  
-Jesse Bragg, communications director for Corporate Accountability, told me, “In some ways, I’m pretty thankful that Shell was so honest about what many campaigners have been saying for a long time: that the very corporations that created this crisis are at the table and writing the supposed solutions for getting us out of it.”  
+The executive, Shell’s Chief Climate Change Adviser David Hone, made his comments at the international climate change conference **COP 24** on Friday. Hone was candid about just how much of a hand his company — through their involvement with the International Emissions Trading Association — had in writing the Paris agreement.  
+The agreement is the centerpiece of the conference in Poland, where delegates are trying to draft a rulebook for how to implement it. **IETA is a business lobby** comprised of corporations including fossil fuel producers that pushes for “market-based climate solutions,” including at United Nations climate talks.
+
+  
+To hear him tell it, their involvement has been wildly successful. “We have had a process running for four years for the need of carbon unit trading to be part of the Paris agreement. We can take some credit for the fact that Article 6 \[of the Paris agreement\] is even there at all,” Hone said at an IETA side event within the Katowice, Poland, conference center. “We put together a straw proposal. Many of the elements of that straw proposal appear in the Paris agreement. We put together another straw proposal for the rulebook, and we saw some of that appear in the text.”
+
+  
+Jesse Bragg, communications director for Corporate Accountability, told me, “In some ways, I’m pretty thankful that Shell was so honest about what many campaigners have been saying for a long time: that the very corporations that created this crisis are at the table and writing the supposed solutions for getting us out of it.”
+
+  
 Under the U.N. Framework Convention on Climate Change, only state actors can officially negotiate over the text of climate agreements, including the Paris agreement. Unions, civil society groups, and corporations can be observers to that process.  
-Hone added that he’s been “chatting with some of the delegations” and that the “the \[European Union’s\] position is not that different from how Shell sees this.”  
-Article 6, the provision that Shell is taking credit for, outlines carbon markets as one of the chief ways that oil companies and other major polluters can rein in their emissions, allowing them to purchase credits for emissions reductions elsewhere instead of just reducing them directly. Such systems have been racked with controversy and do basically nothing to reduce the local impacts of extraction.  
+Hone added that he’s been “chatting with some of the delegations” and that the “the \[European Union’s\] position is not that different from how Shell sees this.”
+
+  
+Article 6, the provision that Shell is taking credit for, outlines carbon markets as one of the chief ways that oil companies and other major polluters can rein in their emissions, allowing them to purchase credits for emissions reductions elsewhere instead of just reducing them directly. Such systems have been racked with controversy and do basically nothing to reduce the local impacts of extraction.
+
+  
 Article 6 (of 29) deals with mitigation, and what both governmental and nongovernmental actors will do to mitigate emissions in line with each country’s “Nationally Determined Contribution,” or NDC. The vast majority of the article deals with so-called market mechanisms — emissions-trading systems (think cap-and-trade) — to allow for international cooperation. Just one part of Article 6 (6.8) pertains to nonmarket mechanisms, which remain undefined.  
 So why is Shell so invested in market mechanisms?  
 In a perfect world for Shell and other fossil fuel producers, those mechanisms would be the only government mitigation policies on the table. “The ideal for a cap-and-trade system is to have no overlapping policies … if you really wanted it to work as effectively as it possibly could,” Hone told me after the session, referring to emissions-trading systems generally. “But I’m being a bit idealistic there, I suspect.”  
