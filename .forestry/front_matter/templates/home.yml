@@ -11,3 +11,18 @@ fields:
 - type: text
   name: description
   label: description
+- name: call_to_action
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titre
+  - name: content
+    type: text
+    config:
+      required: false
+    label: Contenu
+  label: Appel à l'action
