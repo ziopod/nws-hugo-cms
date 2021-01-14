@@ -202,9 +202,9 @@ Les objectifs suivants seront évalués :
  - [ ] fournir un lien vers le site généré par Netlify
    À indiquer dans la description du projet Github
  - [ ] Ajouter un bloc de texte personnalisé ;
- - [ ] Ajouter une navigation de pied de page personnalisé ;
+ - [ ] ~~Ajouter une navigation de pied de page personnalisé~~ ;
  - [ ] Ajouter un logo personnalisé ;
- - [ ] Rendre le bloc personnalisé éditable ;
+ - [ ] ~~Rendre le bloc personnalisé éditable~~ ;
  - [ ] Ajouter un contenu original (l'image de couverture et le contenu par défaut de Ananke ne doit pas apparaître)
  - [ ] Éventuellement, personnalisé la fonte et la couleur du site via la configuration du thème.
  - [ ] Prendre soin des informations SEO (points SEO : Titre & description dela page, texte alternatif sur les images, titrage et inter-titrage de l'article, mettre en valeur des termes avec de l'italique, du gras et des liens).
