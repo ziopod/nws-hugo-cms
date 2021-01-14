@@ -185,7 +185,7 @@ Dans votre repertoire local, créez le fichier `layout/index.html`, copier le co
 </article>
 ~~~
 
-Nous avons supprimé la classe `tc-l` de la balise `article`, [d'après la documentation de Tachyons](http://tachyons.io/docs/typography/text-align/), `tc` est pour appliquer la propriété CSS `tex-align: center`, le `-l` est pour indiquer que ce règlage ne [s'applique que sur les écrans larges](https://github.com/tachyons-css/tachyons/blob/master/src/_text-align.css).
+Nous avons supprimé la classe `tc-l` de la balise `article`, [d'après la documentation de Tachyons](http://tachyons.io/docs/typography/text-align/), `tc` est pour appliquer la propriété CSS `text-align: center`, le `-l` est pour indiquer que ce règlage ne [s'applique que sur les écrans larges](https://github.com/tachyons-css/tachyons/blob/master/src/_text-align.css).
 
 Le balises `div` aditionnelles nous permmettent de créer deux colonnes avec [le système de grille de Tachyons](http://tachyons.io/docs/layout/grid/), une en deux tiers avec la classe `two-thirds` et une autre de 1 tier avec la classe `third`. Le suffixe `-ns` indique le réglage ne s'applique ras pas sur les petits écrans (ns = Not Small).
 
