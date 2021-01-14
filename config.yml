@@ -2,7 +2,7 @@ baseURL: "/"
 languageCode: fr-fr
 title: Ghost
 theme: ananke
-DefaultContentLanguage: en
+DefaultContentLanguage: fr
 Paginate: 3
 googleAnalytics: ''
 enableRobotsTXT: true
